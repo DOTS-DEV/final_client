@@ -106,8 +106,6 @@ THE SOFTWARE.
 
 @angular/material/expansion
 
-@angular/material/list
-
 @angular/material/menu
 
 @angular/material/progress-bar
@@ -245,6 +243,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
+
+angular-fittext
+ISC
 
 angularx-social-login
 MIT
@@ -511,6 +512,9 @@ ng-zorro-antd/popconfirm
 ng-zorro-antd/select
 
 ng-zorro-antd/tabs
+
+ngx-flip
+MIT
 
 ngx-slick-carousel
 MIT
@@ -948,6 +952,8 @@ MIT
 @angular/material/sidenav
 
 @angular/material/slide-toggle
+
+@angular/material/slider
 
 @angular/material/snack-bar
 

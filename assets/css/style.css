@@ -41,17 +41,56 @@ Author URI: http://themeforest.net/user/Ansonika/
 /* 1.  SITE STRUCTURE and TYPOGRAPHY */
 /*============================================================================================*/
 /* @import "@angular/material/prebuilt-themes/purple-green.css"; */
-@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import '~saturn-datepicker/bundle.css';
 /*-------------Akash-------------*/
+.flipper .front {
+  position: relative !important;
+}
+
+/* .flipper .back {
+position: relative !important;
+} */
+
+.blood-test-checkout .mat-expansion-panel-header{
+  color: white;
+  height: 20px !important;
+}
+.blood-test-checkout .mat-expansion-indicator::after{
+  color: white;
+}
+.book-consultation-dialog .mat-form-field-flex{
+  background-color: white !important;
+}
+
 .blood-test-filter label .mat-checkbox-inner-container {
   background-color: white !important;
 }
-.blood-test-filter label .mat-checkbox-label {
+.blood-test-filter label .mat-checkbox-label{
   color: white;
 }
+.consultation .mat-form-field-infix {
+  padding: 0 !important;
+}
+.consultation .mat-form-field-flex {
+  margin: 0 !important;
+}
+@media screen and (max-width : 550px) {
+  .consultation .mat-form-field-infix{
+    width: 20px;
+  }
+}
+@media screen and (min-width : 1000x) {
+  .consultation .mat-form-field-infix{
+    width: 150px;
+  }
+}
+@media screen and (min-width : 551px ) and (max-width : 999px) {
+  .consultation .mat-form-field-infix{
+    width: 140px;
+  }
+}
 
-.location-selection-map {
+.location-selection-map{
   width: 100% !important;
   height: 62vh !important;
 }
@@ -76,10 +115,6 @@ Author URI: http://themeforest.net/user/Ansonika/
   text-transform: capitalize;
   color: #10120ce6;
   font-size: 0.9rem;
-  background: #057a49;;
-    color: #fff;
-    font-weight: bold;
-    box-shadow: -1px 4px 4px 0px #c0bebe;
 }
 
 .full-width {
@@ -373,19 +408,6 @@ a.nav-link.cards.active img {
 64px= 4.57142857rem
 72px= 5.142857143rem
 */
-html * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  background: #fff;
-  font-size: 14px;
-  font-size: 0.875rem;
-  line-height: 1.4;
-  font-family: "Poppins", Helvetica, sans-serif;
-  color: #555;
-}
 
 main {
   background: #f5f8fa;
